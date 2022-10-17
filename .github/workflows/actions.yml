@@ -8,13 +8,13 @@ jobs:
     steps:
       - name: List Files
         run: |
-          pws
+          pwd
           ls
       - name: Checkout
         uses: actions/checkout@v2.5.0
       - name: List Files Afer Checkout
         run: |
-          pws
+          pwd
           ls -a
       - name: Simple JS Actions
         id: greet
