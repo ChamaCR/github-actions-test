@@ -8,14 +8,14 @@ jobs:
     steps:
       - name: List Files
         run: |
-        pws
-        ls
+          pws
+          ls
       - name: Checkout
         uses: actions/checkout@v2.5.0
       - name: List Files Afer Checkout
         run: |
-        pws
-        ls -a
+          pws
+          ls -a
       - name: Simple JS Actions
         id: greet
         uses: actions/hello-world-javascript-action@v1.1
