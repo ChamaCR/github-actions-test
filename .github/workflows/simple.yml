@@ -6,9 +6,9 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      - name: echo a string
+      - name: Print Hello World
         run: echo "Hello World"
-      - name: multiline script
+      - name: Print node & npm versions
         run: |
           node -v
           npm -v  
